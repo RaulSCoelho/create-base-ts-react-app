@@ -1,6 +1,6 @@
 {
   "name": "create-base-ts-react-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "./bin/cli.js",
   "main": "index.tsx",
   "dependencies": {
