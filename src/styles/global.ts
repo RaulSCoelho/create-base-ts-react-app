@@ -18,4 +18,8 @@ export default createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
+
+  input {
+    outline: none;
+  }
 `
