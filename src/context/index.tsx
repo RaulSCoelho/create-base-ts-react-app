@@ -2,11 +2,7 @@ import React from 'react'
 
 import { ThemesProvider } from './ThemeContext'
 
-interface Props {
-  children?: React.ReactNode
-}
-
-const AppContext: React.FC<Props> = ({ children }) => {
+const AppContext = ({ children }) => {
   return <ThemesProvider>{children}</ThemesProvider>
 }
 

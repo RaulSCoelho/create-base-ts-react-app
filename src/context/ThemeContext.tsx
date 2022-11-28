@@ -6,18 +6,14 @@ import usePersistedState from '../hooks/usePersistedState'
 import dark from '../styles/themes/dark'
 import light from '../styles/themes/light'
 
-interface ThemeContextType {
+type ThemeContextType = {
   theme: DefaultTheme
   onToggleTheme: () => void
 }
 
-export const ThemeContext = createContext<ThemeContextType>(null)
+export const ThemeContext = createContext({} as ThemeContextType)
 
-interface Props {
-  children?: React.ReactNode
-}
-
-export const ThemesProvider: React.FC<Props> = ({ children }) => {
+export const ThemesProvider = ({ children }) => {
   const [theme, setTheme] = usePersistedState('theme', dark)
 
   const onToggleTheme = useCallback(() => {
