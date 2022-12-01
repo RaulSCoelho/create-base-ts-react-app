@@ -1,6 +1,6 @@
 {
   "name": "create-base-ts-react-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "./bin/cli.js",
   "scripts": {
     "start": "react-scripts start",
