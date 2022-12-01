@@ -1,12 +1,13 @@
+import { Property } from 'csstype'
 import { shade } from 'polished'
 import styled from 'styled-components'
 
 export interface StyleProps {
-  backgroundColor?: string
-  width?: string
-  height?: string
-  border?: string
-  borderRadius?: string
+  backgroundColor?: Property.BackgroundColor
+  width?: Property.Width
+  height?: Property.Height
+  border?: Property.Border
+  borderRadius?: Property.BorderRadius
 }
 
 export const Button = styled.button<StyleProps>`

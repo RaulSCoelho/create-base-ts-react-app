@@ -1,5 +1,6 @@
 import { DefaultTheme } from 'styled-components'
-import { pallete } from 'styles/pallete'
+
+import { pallete } from '../pallete'
 
 const dark: DefaultTheme = {
   title: 'Dark Mode',
@@ -10,8 +11,8 @@ const dark: DefaultTheme = {
     background: '#353640',
     text: '#F8F8F2',
 
-    palette: pallete,
-  },
+    palette: pallete
+  }
 }
 
 export default dark

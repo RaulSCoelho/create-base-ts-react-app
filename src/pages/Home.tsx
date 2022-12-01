@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Flex } from 'components/Flex'
+import { Flex } from '../components/Flex'
 
 export const Home: React.FC = () => {
   return (

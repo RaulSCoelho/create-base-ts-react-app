@@ -1,5 +1,6 @@
 import { DefaultTheme } from 'styled-components'
-import { pallete } from 'styles/pallete'
+
+import { pallete } from '../pallete'
 
 const light: DefaultTheme = {
   title: 'Light Mode',
@@ -10,8 +11,8 @@ const light: DefaultTheme = {
     background: '#EEEEEE',
     text: '#2d2d2d',
 
-    palette: pallete,
-  },
+    palette: pallete
+  }
 }
 
 export default light

@@ -1,11 +1,12 @@
+import { Property } from 'csstype'
 import { shade } from 'polished'
 import styled from 'styled-components'
 
 export interface StyleProps {
-  width?: string
-  height?: string
-  fontSize?: string
-  textAlign?: 'start' | 'center' | 'end'
+  width?: Property.Width
+  height?: Property.Height
+  fontSize?: Property.FontSize
+  textAlign?: Property.TextAlign
 }
 
 export const Input = styled.input<StyleProps>`
